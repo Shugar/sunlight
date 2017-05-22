@@ -1,6 +1,53 @@
 .page-header {
+  position: relative;
   height: 100vh;
+  background: url('../images/head-bg.jpg') no-repeat 90%;
+  background-size: cover;
   font-size: 30px;
   color: #FFF;
-  text-align: center;
+}
+
+.page-header__logo {
+  width: 145px;
+  height: 17px;
+  margin-top: 47px;
+  margin-bottom: 71px;
+  background: url('../images/head-logo.svg') no-repeat center;
+  background-size: contain;
+}
+
+.page-header__profession {
+  margin-bottom: 14px;
+  font-size: 50px;
+  line-height: 1;
+}
+
+.page-header__profession-text {
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+.page-header__profession-us {
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+
+.page-header__icon-right {
+  position: absolute;
+  top: 84px;
+  right: 0;
+  width: 245px;
+  height: 326.1px;
+  background: url('../images/head-fax.svg') no-repeat center;
+  background-size: contain;
+}
+
+.page-header__tick {
+  position: absolute;
+  bottom: 28px;
+  left: 50%;
+  height: 9px;
+  width: 16px;
+  background: url('../images/tick.svg') no-repeat center;
 }

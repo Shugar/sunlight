@@ -12,3 +12,12 @@ body {
 a {
   text-decoration: none;
 }
+
+.container {
+  position: relative;
+  overflow: hidden;
+
+  max-width: 1024px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
