@@ -1,7 +1,75 @@
-.head {
-  height: 100vh;
-  background: #000;
-  font-size: 30px;
-  color: #FFF;
+.requirements {
+  padding: 80px 0;
+}
+
+.requirements .container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.requirements-title {
+  margin-bottom: 50px;
+}
+
+.requirements-list {
+  margin-bottom: 50px;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.requirements-item {
+  flex: 0 0 30%;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
   text-align: center;
+}
+
+.requirements-item__text {
+  font-size: 16px;
+  color: #000000;
+}
+
+.requirements-item__icon {
+  margin-bottom: 20px;
+
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100px;
+}
+
+.requirements-item--1 .requirements-item__icon {
+  background-image: url('../images/finding-1.svg');
+  width: 87px;
+}
+
+.requirements-item--2 .requirements-item__icon {
+  background-image: url('../images/finding-2.svg');
+  width: 105px;
+}
+
+.requirements-item--3 .requirements-item__icon {
+  background-image: url('../images/finding-3.svg');
+  width: 112px;
+}
+
+@media (max-width: 768px) {
+  .requirements {
+    &-list {
+      margin-bottom: 0;
+      display: block;
+    }
+
+    &-item {
+      margin-bottom: 50px;
+    }
+  }
 }

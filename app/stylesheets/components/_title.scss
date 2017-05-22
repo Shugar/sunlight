@@ -1,0 +1,21 @@
+.title {
+  &__line {
+    margin-bottom: 20px;
+    background: #E4002B;
+    width: 150px;
+    height: 8px;
+  }
+
+  &__text {
+    font-size: 30px;
+    color: #000000;
+  }
+
+  &--centered {
+    text-align: center;
+  }
+
+  &--centered .title__line {
+    width: 50px;
+  }
+}
