@@ -4,7 +4,6 @@ import slick from 'slick-carousel'
 function initSlick () {
   $('.features-list').slick({
     infinite: true,
-    arrows: false,
     slidesToShow: 3,
     slidesToScroll: 3,
     dots: true,
