@@ -52,3 +52,55 @@
   margin-left: -16px;
   background: url('../images/tick.svg') no-repeat center;
 }
+
+@media (max-width: 800px) {
+  .page-header__icon-right {
+    top: 50%; 
+    transform: translateY(-50%);
+    width: 205px;
+    height: 286.1px;
+    }
+  }
+  @media (max-width: 760px) {
+    .page-header__icon-right {
+      width: 165px;
+      height: 286.1px;
+    }
+  }
+  @media (max-width: 720px) {
+    .page-header__icon-right {
+      display: none;
+    }
+  }
+
+@media (max-width: 700px) {
+  .page-header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 18px;
+  }
+  
+  .page-header__logo {
+    margin: 0 auto;
+    margin-bottom: 71px;
+    margin-top: 47px;
+  }
+}
+
+@media (max-width: 500px) {
+  .page-header__logo {
+    margin-top: 22px;
+    margin-bottom: 50px;
+  }
+  
+  .page-header__profession {
+    font-size: 35px;
+  }
+  
+  .page-header__profession-text {
+    margin-bottom: 22px;
+    font-size: 18px;
+  }
+}
