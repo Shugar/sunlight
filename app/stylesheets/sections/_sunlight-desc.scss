@@ -6,3 +6,11 @@
   color: #FFFFFF;
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .sunlight-desc {
+    br {
+      display: none;
+    }
+  }
+}

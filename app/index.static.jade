@@ -4,6 +4,8 @@ head
   meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
   meta(name="viewport" content="width=device-width")
   meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no")
+  link(rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css")
+  link(rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css")
   link(rel="stylesheet" href="stylesheets/app.css")
 
   script(src="javascripts/vendor.js")
@@ -34,12 +36,57 @@ body
 
   main.page-main
     .features
-      .title.features-title
-      .title__line
-      .title__text
-        | МЫ ПРЕДЛАГАЕМ
+      .container
+        .title.features-title
+        .title__line
+        .title__text
+          | МЫ ПРЕДЛАГАЕМ
 
-      .features-slider
+        .features-list
+          .features-item.features-item--1
+            .features-item__icon
+            .features-item__text
+              | РАБОТУ В САМОЙ БОЛЬШОЙ ЮВЕЛИРНОЙ КОМПАНИИ, ЛИДЕРЕ В ДАННОЙ ОТРАСЛИ!
+
+          .features-item.features-item--2
+            .features-item__icon
+            .features-item__text
+              | ДОПОЛНИТЕЛЬНЫЕ БОНУСЫ  ЗА ЗНАНИЕ ИНОСТРАННЫХ ЯЗЫКОВ
+
+          .features-item.features-item--3
+            .features-item__icon
+            .features-item__text
+              | ОФОРМЛЕНИЕ СОГЛАСНО ТК РФ (ОПЛАЧИВАЕМЫЕ ОТПУСК И БОЛЬНИЧНЫЙ ЛИСТ)
+
+          .features-item.features-item--4
+            .features-item__icon
+            .features-item__text
+              | КОМАНДУ ПРОФЕССИОНАЛОВ С ХАРИЗМАТИЧНЫМ ЛИДЕРОМ
+
+          .features-item.features-item--5
+            .features-item__icon
+            .features-item__text
+              | ВОЗМОЖНОСТЬ ВЛИЯТЬ НА СВОЙ ЗАРАБОТОК
+
+          .features-item.features-item--6
+            .features-item__icon
+            .features-item__text
+              | КОРПОРАТИВНОЕ ОБУЧЕНИЕ
+
+          .features-item.features-item--7
+            .features-item__icon
+            .features-item__text
+              | ВОЗМОЖНОСТЬ БЫСТРОГО КАРЬЕРНОГО РОСТА
+
+          .features-item.features-item--8
+            .features-item__icon
+            .features-item__text
+              | ГИБКИЙ ГРАФИК РАБОТЫ
+
+          .features-item.features-item--9
+            .features-item__icon
+            .features-item__text
+              | РАБОТУ РЯДОМ С ДОМОМ ИЛИ УЧЕБОЙ
 
     .sunlight-desc
       .container
@@ -81,22 +128,24 @@ body
       | ВМЕСТЕ С ТОБОЙ МЫ РЕАЛИЗУЕМ НАШИ САМЫЕ СМЕЛЫЕ ИДЕИ!
 
     .expect
-      .title.title--centered.expect-title
-        .title__line
-        .title__text
-          | Мы ожидаем
+      .container
+        .title.title--centered.expect-title
+          .title__line
+          .title__text
+            | Мы ожидаем
 
-      .expect__list
-        .expect__item
-          span
-          | КОМАНДНОЙ РАБОТЫ, НАПРАВЛЕННОЙ НА ВЫПОЛНЕНИЕ ПЛАНОВЫХ ПОКАЗАТЕЛЕЙ МАГАЗИНА
-        .expect__item
-          span
-          | ВЫСОКОГО КЛИЕНТСКОГО СЕРВИСА
-        .expect__item
-          span
-          | УЧАСТИЯ ВО ВНУТРЕННИХ ПРОЦЕССАХ МАГАЗИНА: ВИЗУАЛЬНЫЙ МЕРЕЧЕНДАЙЗИНГ, РЕПЛЕНИШМЕНТ, ИНВЕНТЕРИЗАЦИИ, РАБОТА С КАССОВЫМ ТЕРМИНАЛОМ, И Т.П.
-      a.expect__btn.btn(href="#")
+        .expect-list
+          .expect-item
+            span
+            | КОМАНДНОЙ РАБОТЫ, НАПРАВЛЕННОЙ НА ВЫПОЛНЕНИЕ ПЛАНОВЫХ ПОКАЗАТЕЛЕЙ МАГАЗИНА
+          .expect-item
+            span
+            | ВЫСОКОГО КЛИЕНТСКОГО СЕРВИСА
+          .expect-item
+            span
+            | УЧАСТИЯ ВО ВНУТРЕННИХ ПРОЦЕССАХ МАГАЗИНА: ВИЗУАЛЬНЫЙ МЕРЕЧЕНДАЙЗИНГ, РЕПЛЕНИШМЕНТ, ИНВЕНТЕРИЗАЦИИ, РАБОТА С КАССОВЫМ ТЕРМИНАЛОМ, И Т.П.
+        a.expect__btn.btn(href="#")
+          | ОТКЛИКНУТЬСЯ НА ВАКАНСИЮ
 
     .way
       .container
