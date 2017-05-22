@@ -10,9 +10,11 @@
 
 .way__title {
   max-width: 903px;
+  margin: 0 auto;
   margin-top: 100px;
   margin-bottom: 39px;
   font-size: 20px;
+  text-align: center;
   letter-spacing: 0.7px;
   text-align: center;
   color: #ffffff;
@@ -21,7 +23,7 @@
 .way__container {
   position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   
   margin-bottom: 25px;
@@ -32,7 +34,8 @@
   content: '';
   position: absolute;
   top: 25px;
-  left: 245px;
+  left: 50%;
+  transform: translateX(-50%);
   width: 489px;
   height: 16px;
   background: url('../images/arrows.svg') no-repeat center;
@@ -42,6 +45,12 @@
 @media (max-width: 945px) {
   .way__container {
     max-width: 921px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .way__container::after {
+    display: none;
   }
 }
 
@@ -90,6 +99,12 @@
 .way-btn {
   width: 279px;
   margin: 0 auto;
+  margin-bottom: 90px;
   background: #FFF;
   color: #e4002b;
+  
+}
+
+@media (max-width: 700px) {
+  
 }
