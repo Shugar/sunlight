@@ -5,8 +5,6 @@
 .requirements .container {
   display: flex;
   flex-flow: column nowrap;
-  justify-content: center;
-  align-content: center;
 }
 
 .requirements-title {
@@ -22,7 +20,7 @@
 }
 
 .requirements-item {
-  flex: 0 0 30%;
+  flex: 0 0 25%;
 
   display: flex;
   flex-flow: column nowrap;
@@ -59,6 +57,10 @@
 .requirements-item--3 .requirements-item__icon {
   background-image: url('../images/finding-3.svg');
   width: 112px;
+}
+
+.requirements-btn {
+  align-self: center;
 }
 
 @media (max-width: 768px) {
