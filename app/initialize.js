@@ -1,16 +1,7 @@
 import $ from "jquery"
 import slick from 'slick-carousel'
 
-function initAnchorScroll () {
-  $('a[href^="#"]').on('click', function() {
-    const el = $(this).attr('href');
-    $('body').animate({scrollTop: $(el).offset().top}, 500);
-  });
-}
-
-$(document).ready(() => {
-  initAnchorScroll()
-
+function initSlick () {
   $('.features-list').slick({
     infinite: true,
     arrows: false,
@@ -36,4 +27,8 @@ $(document).ready(() => {
       },
     ]
   })
-});
+}
+
+$(document).ready(() => {
+  initSlick()
+})
