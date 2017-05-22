@@ -22,3 +22,16 @@
     width: 50px;
   }
 }
+
+@media (max-width: 768px) {
+  .title {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title__line {
+    width: 50px;
+  }
+}
